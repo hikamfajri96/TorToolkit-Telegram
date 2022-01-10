@@ -3,22 +3,22 @@ try:
 except:
     class ExecVars:
         # Set true if its VPS
-        IS_VPS = False
+        IS_VPS = True
         
-        API_HASH = ""
-        API_ID = 0
-        BOT_TOKEN = ""
-        BASE_URL_OF_BOT = ""
+        API_HASH = "2e7ebf10665181565e44ffac756d1db8"
+        API_ID = 14117649
+        BOT_TOKEN = "5090718143:AAE6Qtw_WqX27mFUrG3yxYRB25q3zlEs18g"
+        BASE_URL_OF_BOT = "postgres://kzrjfmxoufwlcb:628981f723533403da5c7ff65da7fbb362e7e78efdd1151a4d4c5be6db34003d@ec2-52-45-179-101.compute-1.amazonaws.com:5432/d2259c6og3l1v0"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = []
-        OWNER_ID = 0
+        ALD_USR = [300922443, 1200305694, 1312719274]
+        OWNER_ID = 300922443
         
         # Google Drive Index Link should include the base dir also See readme for more info
-        GD_INDEX_URL = False
+        GD_INDEX_URL = True
 
         # Time to wait before edit message
         EDIT_SLEEP_SECS = 40
@@ -42,7 +42,7 @@ except:
         #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
         
         # MEGA CONFIG
-        MEGA_ENABLE = False
+        MEGA_ENABLE = True
         MEGA_API = ""
         MEGA_UNAME = None
         MEGA_PASS = None
@@ -81,7 +81,7 @@ except:
         STATUS_DEL_TOUT = 20
 
         # Allow the user settings to be accessed in private
-        USETTINGS_IN_PRIVATE = False
+        USETTINGS_IN_PRIVATE = True
 
         # Torrent max time to collect metadata in seconds
         TOR_MAX_TOUT = 180
